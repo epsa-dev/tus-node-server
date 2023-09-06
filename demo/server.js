@@ -19,11 +19,11 @@ const stores = {
   S3Store: () => {
     assert.ok(
       process.env.AWS_ACCESS_KEY_ID,
-      'environment variable `AWS_ACCESS_KEY_ID` must be set'
+      ' `AWS_ACCESS_KEY_ID` must be set'
     )
     assert.ok(
       process.env.AWS_SECRET_ACCESS_KEY,
-      'environment variable `AWS_SECRET_ACCESS_KEY` must be set'
+      '`AWS_SECRET_ACCESS_KEY` '
     )
     assert.ok(process.env.AWS_BUCKET, 'environment variable `AWS_BUCKET` must be set')
     assert.ok(process.env.AWS_REGION, 'environment variable `AWS_REGION` must be set')
